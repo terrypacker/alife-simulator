@@ -21,7 +21,6 @@ limitations under the License.
    ALIFE_STYLES.CSS  —  Artificial Life page
    Load order:  base.css  →  theme-neon.css  →  alife-styles.css
    ============================================================= */
-
 body {
   height: 100vh;
   display: grid;
