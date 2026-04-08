@@ -21,6 +21,10 @@ limitations under the License.
    ALIFE_STYLES.CSS  —  Artificial Life page
    Load order:  base.css  →  theme-neon.css  →  alife-styles.css
    ============================================================= */
+
+:root {
+  --text-dim: #97a1bb;
+}
 body {
   height: 100vh;
   display: grid;
@@ -52,7 +56,7 @@ header h1 {
 header .tag {
   font-size: 9px;
   letter-spacing: 3px;
-  color: var(--text-dim);
+  color: var(--text);
   border: 1px solid var(--border);
   padding: 2px 8px;
   border-radius: 2px;
@@ -63,7 +67,7 @@ header .tag {
   display: flex;
   gap: 24px;
   font-size: 10px;
-  color: var(--text-dim);
+  color: var(--text);
 }
 .header-stats span { color: var(--accent1); }
 #stat-gen, #stat-pop, #stat-fps { color: var(--accent3); }
@@ -90,7 +94,7 @@ header .tag {
   font-family: var(--font-head);
   font-size: 8px;
   letter-spacing: 3px;
-  color: var(--text-dim);
+  color: var(--text);
   margin-bottom: 12px;
   display: flex;
   align-items: center;
@@ -283,7 +287,7 @@ input[type=range] { background: var(--border); }
   border-radius: 4px;
   padding: 10px 14px;
   font-size: 10px;
-  color: var(--text-dim);
+  color: var(--text);
   backdrop-filter: blur(4px);
   display: flex;
   flex-direction: column;
@@ -299,7 +303,7 @@ input[type=range] { background: var(--border); }
   bottom: 16px; left: 16px;
   z-index: 10;
   font-size: 9px;
-  color: var(--text-dim);
+  color: var(--text);
   letter-spacing: 1px;
   background: #090d1acc;
   border: 1px solid var(--border);
